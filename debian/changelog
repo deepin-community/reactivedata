@@ -1,5 +1,58 @@
-template-repository (1.0-1) unstable; urgency=medium
+reactivedata (0.3-4) unstable; urgency=medium
 
-  * Initial release
+  * Depend on ocaml instead of transitional ocaml-nox
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 13 Sep 2023 06:17:45 +0200
+
+reactivedata (0.3-3) unstable; urgency=medium
+
+  * Include ocamlvars.mk in debian/rules
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 27 Jul 2023 07:02:04 +0200
+
+reactivedata (0.3-2) unstable; urgency=medium
+
+  * Use ocaml_dune DH buildsystem
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 15 Jul 2023 12:00:27 +0200
+
+reactivedata (0.3-1) unstable; urgency=medium
+
+  [ Stéphane Glondu ]
+  * New upstream release
+  * Bump debhelper compat level to 13
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 04 Feb 2023 07:00:03 +0100
+
+reactivedata (0.2.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump debhelper compat level to 12
+  * Bump Standards-Version to 4.4.1
+  * Add Rules-Requires-Root: no
+  * Update Vcs-*
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 16 Jan 2020 15:46:25 +0100
+
+reactivedata (0.1-3) unstable; urgency=medium
+
+  * Add ocamlbuild to Build-Depends
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 22 Jul 2017 17:51:44 +0200
+
+reactivedata (0.1-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 04 Nov 2015 11:10:26 +0100
+
+reactivedata (0.1-1) experimental; urgency=low
+
+  * Initial upload (Closes: #803257)
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 29 Oct 2015 17:10:01 +0100
