@@ -1,0 +1,8 @@
+     @OCamlStdlibDir@/reactiveData/*dune*
+     @OCamlStdlibDir@/reactiveData/*opam*
+     @OCamlStdlibDir@/reactiveData/*.ml*
+     @OCamlStdlibDir@/reactiveData/*.cmi
+     @OCamlStdlibDir@/reactiveData/*.cmt*
+OPT: @OCamlStdlibDir@/reactiveData/*.cmx
+OPT: @OCamlStdlibDir@/reactiveData/*.cmxa
+OPT: @OCamlStdlibDir@/reactiveData/*.a

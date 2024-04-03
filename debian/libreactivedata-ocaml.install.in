@@ -1,0 +1,3 @@
+     @OCamlStdlibDir@/reactiveData/META
+     @OCamlStdlibDir@/reactiveData/reactiveData.cma
+DYN: @OCamlStdlibDir@/reactiveData/reactiveData.cmxs
